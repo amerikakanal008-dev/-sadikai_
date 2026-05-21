@@ -5,8 +5,8 @@ import os
 from flask import Flask
 from threading import Thread
 
-# Bot tokenini shu yerga yozing
-TOKEN = "8086061724:AAFNorWcbL71wKBYKecJQ-yaA60Sy6sIsAo" # O'zingizning bot tokenigizni o'zgartirmasdan qoldiring
+# Bot tokeningiz shu yerda joylashgan
+TOKEN = "8086061724:AAFNorWcbL71wKBYKecJQ-yaA60Sy6sIsAo"
 bot = telebot.TeleBot(TOKEN)
 
 # Foydalanuvchilarning rasmlarini vaqtincha saqlash uchun lug'at
@@ -121,4 +121,4 @@ if __name__ == "__main__":
     keep_alive()
     print("Bot yangi rejimda yoqilmoqda...")
     bot.infinity_polling(timeout=10, long_polling_timeout=5)
-            
+    
