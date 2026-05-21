@@ -47,7 +47,7 @@ def handle_photo(message):
     btn_clear = InlineKeyboardButton("❌ Tozalash", callback_data="clear_images")
     markup.add(btn_convert, btn_clear)
     
-    bot.reply_to(message, f"Rasm keldi! Jami: {len(user_images[chat_id])} ta.\nPDF qilish uchun bosing 👇", reply_markup=markup)
+    bot.reply_to(message, f"Rasm keldi! Jami: {len(user_images[chat_id])} ta.\nPDF qilish uchun bosing 👇 yoki rasim qoʻshmoqchi boʻlsangiz yana rasim tashlang", reply_markup=markup)
 
 @bot.callback_query_handler(func=lambda call: True)
 def callback_listener(call):
