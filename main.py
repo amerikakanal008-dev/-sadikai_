@@ -6,7 +6,7 @@ from flask import Flask
 from threading import Thread
 
 # Bot tokenini shu yerga yozing
-TOKEN = "7727181515:AAFYCby9Y6_b-O0v6R3e4X1zD8-VIsbZtms" # O'zingizning bot tokenigizni o'zgartirmasdan qoldiring
+TOKEN = "8086061724:AAFNorWcbL71wKBYKecJQ-yaA60Sy6sIsAo" # O'zingizning bot tokenigizni o'zgartirmasdan qoldiring
 bot = telebot.TeleBot(TOKEN)
 
 # Foydalanuvchilarning rasmlarini vaqtincha saqlash uchun lug'at
