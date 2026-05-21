@@ -120,5 +120,4 @@ def callback_listener(call):
 if __name__ == "__main__":
     keep_alive()
     print("Bot yangi rejimda yoqilmoqda...")
-    bot.infinity_polling(timeout=10, long_polling_timeout=5)
-    
+    bot.infinity_polling(timeout=10, long_polling_timeout
