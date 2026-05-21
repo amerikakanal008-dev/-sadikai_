@@ -25,7 +25,7 @@ def keep_alive():
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
     user_images[message.chat.id] = []
-    bot.reply_to(message, "Salom! Menga bir nechta rasm yuboring va pastdagi tugmani bosing!")
+    bot.reply_to(message, "Salom! Menga bir nechta rasm yuboring!")
 
 @bot.message_handler(content_types=['photo'])
 def handle_photo(message):
